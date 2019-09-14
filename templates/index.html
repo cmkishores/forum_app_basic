@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to the page</title>
+</head>
+<body>
+	<ul>
+	{% for element in comments %}
+	<li>{{ element.title }}</li>
+	{% endfor %}
+	</ul>
+</body>
+</html>
